@@ -54,6 +54,19 @@ if (num1===num2) {
 
 /*  Operadores AND y OR */
 
+const disp = 2000
+const pay = 1000
+const target = true
 
+/*
+ || -> Or
+ && -> And
+ */
 
+if (disp>pay || target) {
+    console.log("Puedes pagar");
+} else{
+    console.log("No puedes pagar");
+    
+}
 
